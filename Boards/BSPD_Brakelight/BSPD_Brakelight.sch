@@ -1309,25 +1309,11 @@ Wire Wire Line
 Wire Wire Line
 	7160 3160 7160 3840
 Wire Notes Line
-	5010 3670 6910 3670
-Wire Notes Line
-	6910 3670 6910 5130
-Wire Notes Line
-	6910 5130 5010 5130
-Wire Notes Line
 	5010 5130 5010 3670
-Text Notes 5090 5090 0    50   ~ 0
+Text Notes 7550 5100 0    50   ~ 0
 Set-Reset Latch\n
 Wire Notes Line
-	8220 4670 8220 2040
-Wire Notes Line
 	8220 2040 7140 2040
-Wire Notes Line
-	7140 2040 7140 4670
-Wire Notes Line
-	7140 4670 8220 4670
-Text Notes 7200 4650 0    50   ~ 0
-Set-Reset NOR Gates\n
 Text Notes 10130 5330 0    98   ~ 0
 Brake Light\n
 Text Label 9090 2410 0    50   ~ 0
@@ -1473,7 +1459,7 @@ Wire Wire Line
 	12220 3580 12540 3580
 Wire Wire Line
 	12220 3170 12540 3170
-Text Notes 7150 4880 0    50   ~ 0
+Text Notes 5060 5380 0    50   ~ 0
 Explanation for NOR Latch functionality\nhttp://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/norlatch.html
 Wire Wire Line
 	6600 9920 6600 9940
@@ -3064,4 +3050,12 @@ Text Notes 4580 1670 0    50   ~ 0
 V_cap = .5V because that is the \nvalue we compare to using the\nop amp (U2).
 Text Notes 2770 1400 0    79   ~ 0
 Timer Calculations
+Wire Notes Line
+	7140 2040 7140 3670
+Wire Notes Line
+	5010 3670 7140 3670
+Wire Notes Line
+	5010 5130 8220 5130
+Wire Notes Line
+	8220 2040 8220 5130
 $EndSCHEMATC
